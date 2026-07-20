@@ -15,7 +15,7 @@ check_root:
 		exit 1; \
 	fi
 
-install: check_root
+power_menu_install: check_root
 	@echo "postmarketos-xfce4-customs-ardaninho: Custom scripts for xfce4 on PostmarketOS"
 	@echo "Copyright (C) 2026 Ardaninho"
 	@printf "  %-8s %s\n" "MKDIR" "/usr/share/postmarketos-xfce4-customs-ardaninho"
@@ -26,7 +26,7 @@ install: check_root
 	@ln -sf /usr/share/postmarketos-xfce4-customs-ardaninho/power_menu/power_menu.py /bin/ardaninho_power_menu
 	@echo "Installed. Please configure manually."
 
-uninstall: check_root
+power_menu_uninstall: check_root
 	@echo "postmarketos-xfce4-customs-ardaninho: Custom scripts for xfce4 on PostmarketOS"
 	@echo "Copyright (C) 2026 Ardaninho"
 	@printf "  %-8s %s\n" "RM" "/usr/share/postmarketos-xfce4-customs-ardaninho"
