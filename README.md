@@ -7,4 +7,4 @@ To install: <code>sudo make power_menu_install</code><br>
 And in Whiskermenu properties -> Commands, change `Log Out...` command to `ardaninho_power_menu`
 
 Preview:
-![res/Image.png]()
+![res/image.png]()
