@@ -6,5 +6,5 @@ On some devices, to gain extra performance, you can disable compositing on Windo
 To install: <code>sudo make power_menu_install</code><br>
 And in Whiskermenu properties -> Commands, change `Log Out...` command to `ardaninho_power_menu`
 
-Preview:
-![https://github.com/Ardaninho/postmarketos-xfce4-customs-ardaninho/blob/main/res/image.png?raw=true]()
+Preview:<br>
+![image](https://github.com/Ardaninho/postmarketos-xfce4-customs-ardaninho/blob/main/res/image.png?raw=true)
